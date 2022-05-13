@@ -2,10 +2,11 @@ const config = require('./src/config');
 
 module.exports = {
   siteMetadata: {
+    pathPrefix: '/zray007.github.io',
     title: 'Gourav Samal',
     description:
       'Gourav Samal is Materials Engineer by the day, who loves to tinker and build little projects by the night. Has a knack for solving complex issues with creative approach.',
-    siteUrl: 'https://samalgourav.github.io', // No trailing slash allowed!
+    siteUrl: 'https://zray007.github.io', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@samal_gourav',
   },
