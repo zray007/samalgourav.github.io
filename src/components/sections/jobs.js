@@ -8,13 +8,17 @@ import sr from '@utils/sr';
 import { usePrefersReducedMotion } from '@hooks';
 
 const StyledJobsSection = styled.section`
-  max-width: 700px;
+  max-width: 850px;
 
   .inner {
     display: flex;
 
     @media (max-width: 600px) {
       display: block;
+    }
+
+    a {
+      ${({ theme }) => theme.mixins.inlineLink};
     }
 
     // Prevent container from jumping
