@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://zray007.github.io/sitemap.xml
+Host: https://zray007.github.io
