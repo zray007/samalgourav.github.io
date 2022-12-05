@@ -59,13 +59,14 @@ const Hero = () => {
   }, []);
 
   const one = <h1>Hi, my name is</h1>;
-  const two = <h2 className="big-heading">Gourav Samal.</h2>;
-  const three = <h3 className="big-heading">I build smart products.</h3>;
+  const two = <h2 className="medium-heading">Gourav Samal.</h2>;
+  const three = <h3>Building smart and accessible healthcare solutions for society.</h3>;
   const four = (
     <>
       <p>
-        A Materials Engineer by the day, who loves to tinker and build little projects by the night.
-        Has a knack for solving complex issues with creative approach.
+        A Materials Engineer by the day, master tinkerer and builder by the night. Has a knack for
+        design and fabrication of integrated photonics devices for Point of Care Testing, molecular
+        diagnostics and medical imaging.
       </p>
     </>
   );

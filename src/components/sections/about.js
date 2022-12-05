@@ -126,7 +126,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['Python', 'Solidowrks', 'Ansys', 'AutoCAD'];
+  const skills = ['PCR', 'COMSOL', 'KiCAD', 'Arduino', 'Python', 'Solidworks', 'Ansys', 'AutoCAD'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -136,22 +136,24 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              My interests stems from a project that I started on a whim; to develop a laser scanner
-              microscope from a dvd player. Then the pandemic struck the world &amp; somehow all the
-              dots connected so that I could build a portable laser based {''}
-              <a href="https://www.hackster.io/laserx/diagnostics-via-disc-5793c0#story">
-                Covid testing system
-              </a>{' '}
-              using the DVD laser.
+              I enjoy creating things that live on and off the internet, aimed at helping people all
+              across the globe. My main focus is building accessible, inclusive wearable devices for
+              health monitoring which give insights into a person's deteriorating vitals to
+              transform emergency response services.
             </p>
 
             <p>
-              I enjoy creating things that live on and off the internet, aimed at helping people all
-              across the globe. My main focus these days is building accessible, inclusive products
-              for the current generation to tackle new age issues which are fairly less understood.
+              {' '}
+              My interest in builing point of care device started during the pandemic while facing
+              accessisility issues for covid testing. So, I worked on a DIY project to build DVD
+              laser based {''}
+              <a href="https://www.hackster.io/laserx/diagnostics-via-disc-5793c0#story">
+                Covid diagnostics device
+              </a>{' '}
+              .
             </p>
 
-            <p>Here are a few technologies I’ve been working with recently:</p>
+            <p>Here are a few things I’ve been working with recently:</p>
           </div>
 
           <ul className="skills-list">

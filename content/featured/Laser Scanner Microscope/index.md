@@ -1,15 +1,14 @@
 ---
-date: '2'
-title: 'AI based Laser Scanner Microscope'
-cover: './Laser scanner.png'
+date: '3'
+title: 'Confocal Laser Microscope'
+cover: './CLSM.jpg'
 github: 'https://github.com/zray007/OpenLaserScanningMicroscope'
 external: 'https://github.com/zray007/AI_Microscopy_via_DVD'
 tech:
-  - Python
+  - Altium Designer
+  - Eagle
   - Processing
   - C/C++
 ---
 
-Built a special light microscope from spare DVD parts which performs Con-focal Fluorescence Microscopy. Trained the AI model for resolution enhancement.
-
-Inspired by [Gaudi Labs](http://www.gaudi.ch/GaudiLabs/?page_id=652).
+Inspired by [Gaudi Labs](http://www.gaudi.ch/GaudiLabs/?page_id=652), I built a special light microscope from spare DVD parts which performs Con-focal Fluorescence Microscopy. Trained a ML model for resolution enhancement.
